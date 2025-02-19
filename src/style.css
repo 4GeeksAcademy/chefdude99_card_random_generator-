@@ -1,5 +1,40 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: blue;
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: green;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+}
+
+.valores {
+    display: flex;
+    padding: 25px;
+    font-size: 90px;
+
+}
+
+.iconos {
+    display: flex;
+    margin-right: 230px;
+    margin-bottom: 10px;
+    font-size: 80px;
+
+}
+
+.iconos2 {
+    display: flex;
+    margin-left: 230px;
+    font-size: 80px;
 }
